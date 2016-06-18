@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8' />
+		<title>Minecreeper</title>
+		<link rel='icon' sizes='16x16' href='./bilder/creeper_head.png' /> 
+		<link rel='stylesheet' href='./common/css/common.css' />		   
+		<link rel='stylesheet' href='./css/minecreeper.css'/>
+		<script src='./script/minecreeper.js' type='text/javascript'></script>   
+	</head>
+	<body>
+		<header>
+			<h1>Minecreeper</h1> 
+			<div id='info' class='center'> 
+				<span id='mines_left'></span>
+				<img id='head' src='./bilder/steve_head.png' alt='head'/> 
+				<span id='timer'></span>
+			</div>
+		</header>
+			<button id='9x9'    onclick='init(9, 9, 10)'   >9 X 9<br/>10 Minen</button> 
+			<button id='16x16'  onclick='init(16, 16, 40)' >16 X 16<br/>40 Minen</button>
+			<button id='16x30'  onclick='init(16, 30, 99)' >16 X 30<br/>99 Minen</button>
+			
+		<div id='table_div' class='center'>
+			<table id='table' oncontextmenu='{return false;}'></table>
+		</div>
+		<div id='inv_div' class='center'>
+			<img id='inventory' src='./bilder/inventory.png' alt='' />
+		</div>
+	</body>
+</html>

@@ -1,0 +1,215 @@
+﻿h1 {
+	width: 100%;
+	margin-bottom: 10px;
+	margin-top: 25px;
+	float: left;
+}
+
+#info {
+	width: 100%;
+	height: 48px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	display: block;
+	clear: left;
+	background: #E0CFCF;
+}
+
+#info span {
+	width: 150px;
+	margin: 4px 10px 4px 10px;
+	font-size: 40px;
+	color: red;
+}
+
+#mines_left {
+	float: left;
+	text-align: left;
+}
+
+#head {
+	width: auto;
+	height: 40px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	vertical-align: middle;
+}
+
+#timer {
+	float: right;
+	text-align: right;
+}
+
+frameset {
+	float: left;
+	clear: both;
+	display: block;
+}
+
+button  {
+	width: 110px;
+	height: 110px;
+	margin-bottom: 10px;
+	margin-right: 100px;
+	float: left;
+	clear: both;
+	font-size: 1.2em;
+	display: block;
+	background-image: url(../bilder/button.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#table_div {
+	margin-bottom: 72px;
+	clear: right;
+}
+
+#table {
+	padding: 50px;
+	overflow: scroll;
+	background-image: url(../bilder/map_background.png);
+	background-size: 100% 100%;
+	cursor: url(../bilder/diamond_shovel.png), pointer;
+	table-layout: fixed;
+	border-collapse: separate;
+	border-spacing: 2px;
+}
+
+td {
+	padding: 0px 0px 0px 0px;
+	display: table-cell;
+	color: red;
+	text-align: center;
+	background-image: url(../bilder/dirt.png);
+	background-size: cover;
+}
+
+td.size_9 {
+	width: 40px;
+	min-width: 40px;
+	max-width: 40px;
+	height: 40px;
+	min-height: 40px;
+	max-height: 40px;
+	font-size: 25px;
+}
+
+td.size_16 {
+	width: 32px;
+	min-width: 32px;
+	height: 32px;
+	min-height: 32px;
+	font-size: 20px;
+}
+
+td.size_30 {
+	width: 32px;
+	min-width: 32px;
+	height: 32px;
+	min-height: 32px;
+	font-size: 20px;
+}
+
+td.custom {
+	width: 30px;
+	min-width: 30px;
+	height: 30px;
+	min-height: 30px;
+	font-size: 20px;
+}
+
+td.num_0 {
+	background-image: url(../bilder/0.png);
+}
+
+td.num_1 {
+	background-image: url(../bilder/1.png);
+}
+
+td.num_2 {
+	background-image: url(../bilder/2.png);
+}
+
+td.num_3 {
+	background-image: url(../bilder/3.png);
+}
+
+td.num_4 {
+	background-image: url(../bilder/4.png);
+}
+
+td.num_5 {
+	background-image: url(../bilder/5.png);
+}
+
+td.num_6 {
+	background-image: url(../bilder/6.png);
+}
+
+td.num_7 {
+	background-image: url(../bilder/7.png);
+}
+
+td.num_8 {
+	background-image: url(../bilder/8.png);
+}
+
+td.flag img {
+	width: 85%;
+	height: 85%;
+	display: inline;
+	margin: 0px 0px 0px 0px;
+}
+
+td img.visible {
+	display: inline;
+}
+
+td img:not(.visible) {
+	display: none;
+}
+
+td.showCracks:not(.flag):hover {
+	background-image: url(../bilder/destroy.png), url(../bilder/dirt.png);
+}
+
+td.tnt {
+	background-image: url(../bilder/tnt.png);
+}
+
+#inv_div {
+	width: 60%;
+	height: 66px; /*Das Bild ist 22px hoch*/
+	margin-top: 0px;
+	margin-left: 15%;
+	margin-bottom: 0px;
+	margin-right: 15%;
+	padding: 0px;
+	position: fixed;
+	bottom: 0px;
+	text-align: center;
+	pointer-events: none;
+}
+
+#inventory {
+	width: auto;
+	height: 100%;
+	pointer-events: auto;
+}
+
+#custom_div {
+	display: none;
+	font-size: 1.2em;
+	margin-right: 100px;
+}
+
+#start {
+	width: 120px;
+	height: 60px;
+	float: none;
+	clear: none;
+	background-size: 50% 100%;
+	background-repeat: repeat;
+}

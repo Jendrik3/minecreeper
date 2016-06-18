@@ -1,0 +1,42 @@
+﻿/*css-Datei für alle Spiele mit Minecraft-Optik*/
+
+
+*, *:before, *:after { /*für alle Elemente:*/
+	image-rendering: optimizeSpeed;             /*Bilder ohne blur-Effekt für alle Browser*/
+	image-rendering: -moz-crisp-edges;          
+	image-rendering: -o-crisp-edges;            
+	image-rendering: -webkit-optimize-contrast; 
+	image-rendering: optimize-contrast;         
+	image-rendering: crisp-edges;               
+	image-rendering: pixelated;                   
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	font-family: minecraft, sans-serif !important; 
+	-moz-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+}
+
+body {
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	background-image: url(../bilder/background.gif);
+	color: #E0CFCF;
+}
+
+h1 {
+	font-size: 5em;
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+}
+
+@font-face {
+	font-family: minecraft;
+	src: url(../fonts/minecraft.ttf);
+}
